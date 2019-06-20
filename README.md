@@ -1,4 +1,5 @@
 # L1Web
+
 <!doctype html>
 <head>
     <title>Barmy</title>
@@ -6,13 +7,15 @@
 
 </head>
 <body>
-    <nav>
+<nav>
+    <img src="images/logo.gif">
+    
     <a href="index.html">Home</a>
-    <a href="index.html">Products</a>
-    <a href="index.html">About us</a>
+    <a href="Products.html">Products</a>
+    <a href="Contact.html">contact</a>
 </nav>
 <section>
-    <h1>Welcome</h1> 
+    
     
 
 </section>
@@ -23,7 +26,6 @@
 
 
 </body>
-
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 html{
@@ -53,8 +55,8 @@ nav a{
     color: black;
     margin: 0px 3%;
     font-family: 'Roboto', sans-serif;
-    font-size
-    text-align: ;
+    font-size: 500;
+    text-align:left;
 }
 
 nav a:hover{
@@ -63,7 +65,7 @@ nav a:hover{
 }
 
 section{
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(180, 190, 255, 0.6);
     min-height: 350px;
     
     
@@ -75,8 +77,7 @@ section{
 
 
 
-section img{
-    width: 30%;
-    margin: 10%;
-    border-radius: 15px;
-} 
+nav img{
+   
+
+    
