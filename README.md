@@ -17,26 +17,32 @@
 <section>
        
     <a href="Products.html"><strong>Shop Now F1 Range</strong></a>
-    <p>Support your favourite F1 team 
+     <p>Support your favourite F1 team 
         for just $14.99</p>
-    <img src="images/Scuderia Ferrari Sock.jpg" width="301px" align="left">
-    <img src="images/Mercedes Sock.jpg" width="301px" align="bottom">
     
-
+   
+    
+     <a href="Products.html">
+    <img src="images/Mercedes Sock.jpg" width="280px" align="left" margin-top="70px" >
+    
+    
+    </a>
+    
+ <a href="Products.html">
+    <img src="images/Scuderia Ferrari Sock.jpg" width="280px" align="right" margin-top="70px">
+    
+    
+    </a>
 
 </section>
 
-    <section2>
-    
-    
-         
 
-    </section2>
         
 
 
 
 </body>
+
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 html{
@@ -116,15 +122,12 @@ h1{
     margin-left: 460px;
 }
 
-    
 
-section2{
-    background-color: rgba(255, 255, 255, 1);
-    height: 100px;
-    width: 100px;
-    border-style: solid;
-    border-width: 8px;
-    border-color: black;
-    margin-top: 100px;
-    margin-left: 900px;
-    font-family: 'Roboto', sans-serif;
+section p{
+    
+    
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
