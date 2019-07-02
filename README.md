@@ -1,5 +1,3 @@
-# L1Web
-
 <!doctype html>
 <head>
     <title>Barmy</title>
@@ -8,40 +6,32 @@
 </head>
 <body>
 <nav>
-    <img src="images/logo.gif" width="100px" align="left">
+    <img class="logo" src="images/logo.gif" width="100px" align="left" align="top">
     
     <a href="index.html">Home</a>
     <a href="Products.html">Products</a>
     <a href="Contact.html">contact</a>
 </nav>
 <section>
-       
-    <a href="Products.html"><strong>Shop Now F1 Range</strong></a>
-     <p>Support your favourite F1 team 
-        for just $14.99</p>
+    <div class="left">
+        <a href="Products.html"><strong>Shop Now F1 Range</strong></a>
+        <p>
+            Support your favourite F1 team 
+            for just $14.99
+        </p>
+        <a href="Products.html">
+            <img src="images/Mercedes-Sock.gif">
+        </a>
+    </div>   
     
-   
+    <div class="rightTop">
+        <h1>top</h1>
+    </div>
+    <div class="rightBottom">
+        <h1>Bottom</h1>  
+    </div>
     
-     <a href="Products.html">
-    <img src="images/Mercedes Sock.jpg" width="280px" align="left" margin-top="70px" >
-    
-    
-    </a>
-    
- <a href="Products.html">
-    <img src="images/Scuderia Ferrari Sock.jpg" width="280px" align="right" margin-top="70px">
-    
-    
-    </a>
-
 </section>
-
-
-        
-
-
-
-</body>
 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
@@ -54,16 +44,20 @@ body{
     margin: 0px;
 }
 
-nav{
+.logo {
+    margin-top: -6px;
+    margin-left: 5px;
+}
+
+nav {
     text-align: center;
     border-style: solid;
-    position: relative;
-    top: 40px;
+/*    position: relative;*/
+    margin-top: 5vh;
     padding: 15px 0px;
     border-width:8px;
     
 }
-
 nav a{
     text-decoration: none;
     display: inline-block;
@@ -82,15 +76,39 @@ nav a:hover{
 
 section{
     background-color: rgba(255, 255, 255, 1);
-    height: 700px;
-    width:600px;
-    border-style: solid;
-    border-width: 8px;
-    border-color: black;
-    margin-top: 100px;
-    margin-left: 60px;
+    height: 70vh;
+    width: 90%;
+    margin: 5vh 5vw;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
 }
+
+.left {
+    width: 40%;
+    height: 90%;
+    border: 8px solid black;
+    margin: 2%;
+}
+
+.left img {
+    display: block;
+    width: 60%;
+    margin: 10% auto;
+
+}
+
+.rightTop, .rightBottom {
+    width: 50%;
+    margin: 2%;
+    height: 40%;
+    border: 8px solid black;
+}
+
+
 
 section a{
      font-family: 'Roboto', sans-serif;
@@ -117,9 +135,7 @@ p{
 
 
 h1{
-    
-    margin-top: 40px;
-    margin-left: 460px;
+  margin: 3% 5%;
 }
 
 
@@ -131,3 +147,41 @@ section p{
     
 }
 
+
+    
+
+  
+   
+.section2{
+     background-color: rgba(255, 255, 255, 1);
+    height: 390px;
+    width:1000px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: black;
+    margin-left: 680px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+    
+.section3{
+     background-color: rgba(255, 255, 255, 1);
+    height: 300px;
+    width:600px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: black;
+    margin-left: 800px;
+    font-family: 'Roboto', sans-serif;
+    
+
+
+
+}
+
+    
+    
+
+    
+    
