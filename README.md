@@ -7,28 +7,27 @@
 </head>
 
 <body>
-    <nav>
-        <img class="logo" src="images/logo.gif">
+         <nav>
+        <img src="images/logo.gif" alt="logo" width="100">
 
         <a href="index.html">Home</a>
         <a href="Products.html">Products</a>
-        <a href="Contact.html">contact</a>
+        <a href="Contact.html">About Us</a>
     </nav>
     <section>
         <div class="left">
             <a href="Products.html"><strong>Shop Now F1 Range</strong></a>
-            <p>
-                Support your favourite F1 team
-                for just $14.99
-            </p>
-            <a href="Products.html">
-                <img src="images/Mercedes-Sock.gif">
+           <a href="Products.html">
+                <img src="images/Mercedes-Sock.gif" alt="Merc">
+            
+            
+            
             </a>
         </div>
         <div class="rightTop">
 
             <a href="Products.html"><strong>Shop Now Flag Range</strong></a>
-            <img class="rightphoto1" src="images/Spain Sock.jpg">
+            <img class="rightphoto1" src="images/SpainSock.jpg" alt="spain">
 
 
 
@@ -40,15 +39,13 @@
         </div>
         <div class="rightBottom">
             <a href="Products.html"><strong>Shop Now IPL Range</strong></a>
-            <img class="rightphoto1" src="images/Kkr Sock.jpg">
+            <img class="rightphoto1" src="images/KkrSock.jpg" alt="KKr">
 
 
         </div>
     </section>
-    
-    
-    
-    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 html {
     background-color: white;
@@ -126,7 +123,7 @@ section {
 .rightBottom {
     width: 50%;
     margin: 2%;
-    height: 37%;
+    height: 35%;
     border: 8px solid black;
 
 }
@@ -236,6 +233,41 @@ section p {
 
 }
 
+
+.productsection{
+    
+width: 90%;
+border: 8px solid black;
+height: 80%;
+    
+    
+}
+
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column h1{
+    
+    text-align: center;
+}
+
+.contactsection{
+    width: 70%;
+    border: 8px solid black;
+    height:60%;
+    
+}  
+ 
 <!doctype html>
 
 <head>
@@ -245,53 +277,23 @@ section p {
 </head>
 
 <body>
-    <nav>
-        <img src="images/logo.gif" width="100px" align="left" align="top">
+     <nav>
+        <img src="images/logo.gif" alt="logo" width="100" align="left">
 
         <a href="index.html">Home</a>
         <a href="Products.html">Products</a>
-        <a href="Contact.html">contact</a>
+        <a href="Contact.html">About Us</a>
     </nav>
+    <section class="contactsection">
+        
+       
+<p> Barmy is a New Zealand Founded Company selling their products all over the world. At the moment we offer Flag Socks, F1 Socks and IPL socks so you represent your favourite sports team or country.</p>
 
-    <section>
-
-
-
-
-        <div class="productphoto">
-            <img src="images/Haas sock.jpg">
-
-
-
-
-            <img src="images/Scuderia Ferrari Sock.jpg">
-
-
-
-            <img src="images/Mercedes-Sock.gif">
-
-
-
-
-            <img src="images/Mercedes-Sock.gif">
-
-
-
-
-            <img src="images/Mercedes-Sock.gif">
-
-
-
-        </div>
-
-
-
-
-
-
+        
     </section>
-
-<!doctype html>
+    
+    
+    <!doctype html>
 
 <head>
     <title>Barmy</title>
@@ -301,42 +303,62 @@ section p {
 
 <body>
     <nav>
-        <img src="images/logo.gif" width="100px" align="left" align="top">
+        <img src="images/logo.gif" alt="logo" width="100" align="left">
 
         <a href="index.html">Home</a>
         <a href="Products.html">Products</a>
-        <a href="Contact.html">contact</a>
+        <a href="Contact.html">About Us</a>
     </nav>
-    <section>
 
-        <a href="Products.html"><strong>Shop Now F1 Range</strong></a>
-        <p>Support your favourite F1 team
-            for just $14.99</p>
+    <section class="productsection">
 
 
+<div class="row">
+  <div class="column">
+    <h1>Flag Socks</h1>
+      <img src="images/FranceSock.jpg" alt="france" style="width:100%">
+  <h3>$14.99</h3>
 
-        <a href="Products.html">
-            <img src="images/Mercedes-Sock.gif" width="280px" align="left" margin-top="70px">
-
-
-        </a>
-
-        <a href="Products.html">
-            <img src="images/Scuderia Ferrari Sock.jpg" width="280px" align="right" margin-top="70px">
-
-
-        </a>
-
-        <div class="card">
-            <img src="images/Mercedes-sock.gif" alt="Denim Jeans" style="width:100%">
-            <h1>Tailored Jeans</h1>
-            <p class="price">$19.99</p>
-            <p>Mercedes F1 Socks</p>
-
+</div>
+  
+    
+ 
+    <div class="column">
+    <h1>Flag Socks</h1>
+    <img src="images/GermanySock.jpg" alt="germany" style="width:100%">
+  <h3>$14.99</h3>
+    </div>
+  
+    
+    
+    <div class="column">
+    <h1>Flag Socks</h1>
+    <img src="images/NetherlandsSock.jpg" alt="Netherlands" style="width:100%">
+  <h3>$14.99</h3>
+    </div>
         </div>
+
+  
+         
+
+
+
+       
+
+
 
 
 
 
     </section>
 
+
+
+
+
+
+
+
+
+
+      
